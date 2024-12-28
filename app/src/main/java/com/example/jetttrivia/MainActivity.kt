@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     //val viewModel: QuestionsViewModel by viewModels()
                     TriviaHome(
-                        modifier = Modifier.padding(innerPadding),
+                        modifier =  Modifier.padding(innerPadding),
                         //viewModel = viewModel
                     )
                 }
